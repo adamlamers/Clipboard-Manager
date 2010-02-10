@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="1.0.0.1" name="Clipboard Memorizer.exe" publicKeyToken="af8da6a2adf2499e" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="clipboard.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Clipboard Memorizer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Clipboard Memorizer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Clipboard Memorizer.exe" size="25600">
+      <assemblyIdentity name="Clipboard Memorizer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>bu1RrAj5mBcJFuxB3tj/k7pKps8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Clipboard Memorizer.exe.config" size="120">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>8ftcJLBvUoWhkXPJxPg06pDsU2M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="clipboard.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ed4xyS7XHKkodcEtegB1UMM7U+Q=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Adam-PC\Adam" issuerKeyHash="6e739360a813b81fe03f66fc7027e98d281b347e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>XieeIe8jhfkh29fjIIlY01jQYvs=</DigestValue></Reference></SignedInfo><SignatureValue>Xnog41rR0gQf1G2LCxIwAHPe79LabuyJlfw/Mv3f0LgeBBoZWeRiqp/uzIjq0YC+7y5IKTIoxJuCc0AZdLML4KEbZfYzn+Fnf2lI30NKytkF2AH7IDRHP0Xh+ACPghfA4R30c4jbC/n8KPM0Fy8oAyxR9FohMuxZocPHKxZIMFk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wQUl/m93rDxLg2Pc3mQtJ7BG9yPywBwd5gYNfMweDDNixeIKeSwcbCUsNH3UFlIVj3UtSEqWMr9ht/WJEC/MO3wxJjWljMRNnhH/QV/nT7gKmvGDkfziJkbvEf/yF5QT/b/LHqI37+UwaiIvaAiY1IMvTX6AkcaZxaLx5CQjVcM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fb62d058d3588920e3d7db21f98523ef219e275e" Description="" Url=""><as:assemblyIdentity version="1.0.0.1" name="Clipboard Memorizer.exe" publicKeyToken="af8da6a2adf2499e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Adam-PC\Adam</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>OFeCEux3MBnjWg+qmCrf2y32RNw=</DigestValue></Reference></SignedInfo><SignatureValue>b070QRu5QbamJE2ilt7RCEsKhtcuQ++ZdU4CHrlzlEg+JPUBJqbSVDWPbILTjReSRIGY0bayBD6YSHAcDk+90rNS3RZkqiQzz/73KIrMjVrek0orX29AmwTp1MA01+tKfhRkj4hzo11JDPu54jSFsYvaz81kxEkx4q1sKbifI78=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wQUl/m93rDxLg2Pc3mQtJ7BG9yPywBwd5gYNfMweDDNixeIKeSwcbCUsNH3UFlIVj3UtSEqWMr9ht/WJEC/MO3wxJjWljMRNnhH/QV/nT7gKmvGDkfziJkbvEf/yF5QT/b/LHqI37+UwaiIvaAiY1IMvTX6AkcaZxaLx5CQjVcM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQ+9LjWgvYMoNIpUTel2t9wDANBgkqhkiG9w0BAQUFADAjMSEwHwYDVQQDHhgAQQBkAGEAbQAtAFAAQwBcAEEAZABhAG0wHhcNMDkwNDA3MDQyNzAwWhcNMTAwNDA3MTAyNzAwWjAjMSEwHwYDVQQDHhgAQQBkAGEAbQAtAFAAQwBcAEEAZABhAG0wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMEFJf5vd6w8S4Nj3N5kLSewRvcj8sAcHeYGDXzMHgwzYsXiCnksHGwlLDR91BZSFY91LUhKljK/Ybf1iRAvzDt8MSY1pYzETZ4R/0Ff50+4Cprxg5H84iZG7xH/8heUE/2/yx6iN+/lMGoiL2gImNSDL01+gJHGmcWi8eQkI1XDAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEABwy/SgWv51mYYBLEVELt4tVD6oHnu2+AW8+BgS3V3ccvvKwh0yVJP5SulubyZm3T/hpWyExk5ozlTNT+z60/gAC4n+k+tKpv6aatrwfVsLNlrfK89yuXyLup3TBvyALdBZg8TFoh10NDa+4mwrJq0ydR7/rwOUcDg627sD1o7X8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
